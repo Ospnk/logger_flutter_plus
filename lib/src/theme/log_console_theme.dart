@@ -8,15 +8,15 @@ class LogConsoleTheme {
     required this.bodyLarge,
   });
 
-  factory LogConsoleTheme.byTheme(
-    ThemeData theme,
-  ) =>
-      LogConsoleTheme._(
-        bottomAppBarColor:
-            theme.bottomAppBarTheme.color ?? theme.bottomAppBarColor,
-        scaffoldBackgroundColor: theme.scaffoldBackgroundColor,
-        bodyLarge: theme.textTheme.bodyLarge,
-      );
+  // factory LogConsoleTheme.byTheme(
+  //   ThemeData theme,
+  // ) =>
+  //     LogConsoleTheme._(
+  //       bottomAppBarColor:
+  //           theme.bottomAppBarTheme.color ?? theme.bottomAppBarColor,
+  //       scaffoldBackgroundColor: theme.scaffoldBackgroundColor,
+  //       bodyLarge: theme.textTheme.bodyLarge,
+  //     );
 
   factory LogConsoleTheme.dark() => LogConsoleTheme._(
         bottomAppBarColor: LogColorSchema.bottomAppBarColor,
